@@ -142,4 +142,4 @@ cython_debug/
 /temp
 /logs
 .vscode
-/DS_Store
+.DS_Store
