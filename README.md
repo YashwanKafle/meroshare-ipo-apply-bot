@@ -45,7 +45,7 @@ Bank name should be exact like: `NIC ASIA BANK LTD.`
 Run the bot:
 
 ```bash
-python main.py --csv-file-path accounts.csv [--apply-all]
+python main.py --f accounts.csv [--apply-all]
 ```
 
 | Flag                     | Description                                                                    |
