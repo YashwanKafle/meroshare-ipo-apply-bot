@@ -15,6 +15,8 @@ def get_accounts(path: str):
                 password=row["Password"],
                 quantity=row["Quantity"],
                 crn_number=row["crn_number"],
+                bank=row["Bank"],
+                transcation_pin=row["transcation_pin"],
             )
             accounts.append(a)
     return accounts

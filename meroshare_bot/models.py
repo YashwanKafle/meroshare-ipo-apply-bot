@@ -8,3 +8,5 @@ class Account(BaseModel):
     password: str
     quantity: str
     crn_number: str
+    bank: str
+    transcation_pin: str
