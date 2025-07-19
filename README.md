@@ -41,7 +41,7 @@ John,123,example_user,password123,10,123456,NABIL,1234
 ```
 Bank name should be exact like: `NIC ASIA BANK LTD.`
 
-### 🚀 Usage
+### Usage
 Run the bot:
 
 ```bash
