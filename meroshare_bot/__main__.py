@@ -11,13 +11,17 @@ def main(csv_file_path: str, apply_all: bool):
         playwright.launch_playwright()
 
 
-if __name__ == "__main__":
+def cli():
     parser = ArgumentParser()
     parser.add_argument("--csv-file-path", "-f", required=True)
     parser.add_argument(
         "--apply-all",
         action="store_true",
-        help="Apply all issues (bonds,ordinary shares,mutual funds)",
+        help="Apply all issues (bonds, ordinary shares, mutual funds)",
     )
     args = parser.parse_args()
     main(args.csv_file_path, args.apply_all)
+
+
+if __name__ == "__main__":
+    cli()
