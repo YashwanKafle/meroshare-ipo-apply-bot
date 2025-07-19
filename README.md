@@ -33,12 +33,13 @@ pip install -r requirements.txt
 playwright install 
 ```
 
-### 📄 CSV Format
+### CSV Format
 The bot reads account details from a CSV file. Each row should look like:
 ```bash
 name,capital_id,username,password,quantity,crn_number,bank,transcation_pin
 John,123,example_user,password123,10,123456,NABIL,1234
 ```
+Bank name should be exact like: `NIC ASIA BANK LTD.`
 
 ### 🚀 Usage
 Run the bot:
@@ -63,7 +64,7 @@ python main.py -f accounts.csv --apply-all
 ```
 
 
-## 🧠 How It Works
+## How It Works
 
 - Logs in to MeroShare using each account.
 - Navigates to My ASBA.
@@ -73,7 +74,7 @@ python main.py -f accounts.csv --apply-all
 - Submits application.
 
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is intended for **personal and educational purposes only**.
 
