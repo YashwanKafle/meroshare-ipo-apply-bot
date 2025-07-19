@@ -113,7 +113,7 @@ class Playwright:
         time.sleep(1)
         if apply_btn:
             apply_btn.click()
-        logger.info("IPO Selected Successfully")
+        logger.info(f"Successfully selected {issues_list[0][1][0]} to apply")
         time.sleep(1)
         return True
 
