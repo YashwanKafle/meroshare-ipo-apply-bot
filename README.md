@@ -45,7 +45,7 @@ Bank name should be exact like: `NIC ASIA BANK LTD.`
 Run the bot:
 
 ```bash
-python main.py -f accounts.csv [--apply-all]
+python -m meroshare_bot -f accounts.csv [--apply-all]
 ```
 
 | Flag                     | Description                                                                    |
@@ -56,11 +56,11 @@ python main.py -f accounts.csv [--apply-all]
 ### Examples
 Apply only for ordinary shares:
 ```bash
-python main.py -f accounts.csv
+python -m meroshare_bot -f accounts.csv
 ```
 Apply for all available issues:
 ```bash
-python main.py -f accounts.csv --apply-all
+python -m meroshare_bot -f accounts.csv --apply-all
 ```
 
 
