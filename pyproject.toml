@@ -3,11 +3,14 @@ profile = "black"
 line_length = 79
 force_single_line = true
 
+[project.scripts]
+meroshare-bot = "main:main"
+
 [tool.black]
 line-length = 79
 preview = true
 
-[tool.pyright]
 
+[tool.pyright]
 include = ["meroshare_bot", "test.py"]
 typeCheckingMode = "strict"

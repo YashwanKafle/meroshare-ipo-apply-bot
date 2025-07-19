@@ -9,13 +9,13 @@ def get_accounts(path: str):
         reader = csv.DictReader(f)
         for row in reader:
             a = Account(
-                name=row["Name"],
-                capital_id=row["CapitalID"],
-                username=row["Username"],
-                password=row["Password"],
-                quantity=row["Quantity"],
+                name=row["name"],
+                capital_id=row["capital_id"],
+                username=row["username"],
+                password=row["password"],
+                quantity=row["quantity"],
                 crn_number=row["crn_number"],
-                bank=row["Bank"],
+                bank=row["bank"],
                 transcation_pin=row["transcation_pin"],
             )
             accounts.append(a)
