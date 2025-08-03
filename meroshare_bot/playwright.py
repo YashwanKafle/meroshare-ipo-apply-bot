@@ -141,6 +141,7 @@ class Playwright:
 
         logger.info("Selecting proceed...")
         page.get_by_role("button", name="Proceed").click()
+        time.sleep(1)
 
         logger.info("Selecting transaction pin...")
         page.locator("#transactionPIN").fill(self.account.transcation_pin)
