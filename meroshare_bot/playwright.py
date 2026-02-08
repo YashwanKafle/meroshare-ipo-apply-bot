@@ -149,7 +149,7 @@ class Playwright:
         time.sleep(1)
         logger.info("Selecting apply button...")
         page.get_by_role("button", name="Apply").click()
-        time.sleep(1)
+        time.sleep(2)
         return True
 
     def launch_playwright(
