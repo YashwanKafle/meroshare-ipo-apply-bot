@@ -93,7 +93,7 @@ class Playwright:
                 not self.filter_ordinary_share or issue[4] == "Ordinary Shares"
             )
             and len(issue) > 5
-            and issue[5] == "Apply"
+            and "Apply" in issue[5]
         ]
         return filtered_list, len(issue_list)
 
